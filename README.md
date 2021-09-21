@@ -20,3 +20,14 @@ read_file <- function(flnm, path) {
  and then
  
 `your_variable_name <- read_folder("<yourpath>", "*csv")`
+
+
+
+## Modifying axis, legend, plot labels, etc
+
+
+# Análise Descritiva
+
+
+
+## Histogram
