@@ -43,7 +43,6 @@ To filter rows according to a specific value of a given column you can use the *
 
 **original dataframe:**
 
-```
 
 | name       | color  | quantity | size   |
 |------------|--------|----------|--------|
@@ -56,7 +55,7 @@ To filter rows according to a specific value of a given column you can use the *
 | mango      | yellow | 1        | medium |
 | kiwi       | green  | 2        | small  |
 
-```
+
 
 If you want, for example, only the **red** fruits you should do:
 
@@ -66,14 +65,14 @@ fruits_red <- fruits %>% filter(color == "red")
 
 your dataset will look like this: 
 
-```
+
 | name       | color  | quantity | size   |
 |------------|--------|----------|--------|
 | apple      | red    | 1        | medium |
 | strawberry | red    | 9        | small  |
 | plum       | red    | 2        | medium |
 
-```
+
 
 Or, if you want all the fruits except the **red** ones you should do:
 
@@ -102,7 +101,7 @@ frutis %>% mutate(code_size = ifelse(size == "small", "S", ifelse(size == "mediu
 ```
 Then, your dataframe will look like this: 
 
-``` 
+
 | name       | color  | quantity | size   | code_size |
 |------------|--------|----------|--------|-----------|
 | apple      | red    | 1        | medium | M         |
@@ -114,7 +113,7 @@ Then, your dataframe will look like this:
 | mango      | yellow | 1        | medium | M         |
 | kiwi       | green  | 2        | small  | S         |
 
-```
+
 
 
 ### Select Columns - _select function_
