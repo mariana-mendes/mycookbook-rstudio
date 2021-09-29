@@ -126,21 +126,37 @@ Then, your dataframe will look like this:
 
 
 
+## Plots - _**basics**_
+
+
+### Histograms 
+- what
+- when 
+- examples
+
+
+### Bar plot 
+- what
+- when
+- examples
+
+### Line
+
+
+### Point
 
 
 
-## Plots
+### Adjusting your plot
 
-
-### Axis, legend, plot labels, etc
-
-
+#### Axis, legend, plot labels, etc
 
 
 
 
 
-### Histogram
+
+
 
 
 
