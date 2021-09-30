@@ -27,7 +27,7 @@ read_file <- function(flnm, path) {
 your_variable_name <- read_folder("<yourpath>", "*csv")
 ```
 
-### to-do: explicar funções usadas. ou deixar essa forma de ler vários arquivos pra depois
+##### to-do: explicar funções usadas. ou deixar essa forma de ler vários arquivos pra depois
 - list.files
 - map_df 
 - read_file
